@@ -1,0 +1,11 @@
+﻿  2.cpp
+C:\Project\MIPT\4_semestr\1\2\2\2.cpp(53,41): warning C4244: инициализация: преобразование "__int64" в "unsigned long", возможна потеря данных
+C:\Project\MIPT\4_semestr\1\2\2\2.cpp(99,53): message : выполняется компиляция ссылки на экземпляр шаблон функции "RandIt getMaxPar<std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<_Ty>>>>(int,RandIt,RandIt)"
+          with
+          [
+              RandIt=std::_Deque_iterator<std::_Deque_val<std::_Deque_simple_types<uint64_t>>>,
+              _Ty=uint64_t
+          ]
+C:\Project\MIPT\4_semestr\1\2\2\2.cpp(53,32): warning C4244: инициализация: преобразование "__int64" в "const unsigned long", возможна потеря данных
+C:\Project\MIPT\4_semestr\1\2\2\2.cpp(67,33): warning C4018: <: несоответствие типов со знаком и без знака
+  2.vcxproj -> C:\Project\MIPT\4_semestr\1\2\x64\Debug\2.exe
