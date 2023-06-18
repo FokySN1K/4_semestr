@@ -80,8 +80,10 @@ void read_() {
     string st = "";
     while (cont) {
         if (str.empty()) {
-            getline(in, st);
-            str.push(st);
+            if (getline(in, st))
+                str.push(st);
+            else
+                cont = false;
         }
         st = "";
     }
@@ -96,7 +98,8 @@ void write_() {
             for (int i = 0; i < st.size(); i++) {
                 st[i] = toupper(st[i]);
             }
-            cout << st;
+            cout << st << endl;
+            st = "";
         }
     }
 }
